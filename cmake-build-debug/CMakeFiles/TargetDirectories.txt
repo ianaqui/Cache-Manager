@@ -1,0 +1,3 @@
+/Users/ianaquino/CLionProjects/milestone5/cmake-build-debug/CMakeFiles/milestone5.dir
+/Users/ianaquino/CLionProjects/milestone5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ianaquino/CLionProjects/milestone5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

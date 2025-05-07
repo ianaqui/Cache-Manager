@@ -1,0 +1,12 @@
+# ninja log v6
+5	568	1745185923370024668	CMakeFiles/milestone5.dir/cache_manager.cpp.o	3595f72fedc27597
+568	707	1745185923932843148	milestone5	4b3102209d4330d3
+5	567	1745181804960860124	CMakeFiles/milestone5.dir/doubly_linked_list.cpp.o	bde8969f139062a7
+1	528	1745181202925916260	CMakeFiles/milestone5.dir/tree_node.cpp.o	70ff36f89fd9f715
+6	3292	1745182016118225489	CMakeFiles/milestone5.dir/milestone5.cpp.o	5379ceeb792c7ccc
+7	1271	1745182016119396899	CMakeFiles/milestone5.dir/hash_table.cpp.o	9d35d4465ce3c5dd
+1	533	1745181202926123714	CMakeFiles/milestone5.dir/hash_node.cpp.o	dd324e3bbf7a7f5e
+532	915	1745181203457353223	CMakeFiles/milestone5.dir/dll_node.cpp.o	96f0c631b1cbd205
+7	1258	1745182016119198747	CMakeFiles/milestone5.dir/binary_search_tree.cpp.o	2597c301662805e1
+3	70	1746632197978638230	build.ninja	4932594e1f9bfaa4
+7	72	1746632197978638230	build.ninja	4932594e1f9bfaa4
