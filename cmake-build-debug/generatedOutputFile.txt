@@ -16,8 +16,6 @@ Here are the FIFO List contents:
 50 
 40 
 End of FIFO List
-
-Here are the Hash Table contents (2 entries):
 Empty bucket: 0
 Empty bucket: 1
 Empty bucket: 2
@@ -33,14 +31,18 @@ FIFO info from cacheManager:  key: 40
 Empty bucket: 8
 Empty bucket: 9
 Empty bucket: 10
-
-End of table
 Performing In-order traversal
+Node key: 40
+Node key: 50
+Performing Breadth First traversal
 Node key: 40
 Node key: 50
 Performing reverse-order traversal
 Node key: 50
 Node key: 40
+Performing Breadth First traversal
+Node key: 40
+Node key: 50
 
 Processing testCase2:
 
@@ -75,8 +77,6 @@ Here are the FIFO List contents:
 101 
 End of FIFO List
 
-Here are the Hash Table contents (8 entries):
-
 Bucket 0: 
 FIFO info from cacheManager:  key: 902
 Empty bucket: 1
@@ -102,9 +102,16 @@ Bucket 8:
 FIFO info from cacheManager:  key: 602
 Empty bucket: 9
 Empty bucket: 10
-
-End of table
 Performing In-order traversal
+Node key: 101
+Node key: 102
+Node key: 303
+Node key: 402
+Node key: 502
+Node key: 602
+Node key: 808
+Node key: 902
+Performing Breadth First traversal
 Node key: 101
 Node key: 102
 Node key: 303
@@ -122,6 +129,15 @@ Node key: 402
 Node key: 303
 Node key: 102
 Node key: 101
+Performing Breadth First traversal
+Node key: 101
+Node key: 102
+Node key: 303
+Node key: 402
+Node key: 502
+Node key: 602
+Node key: 808
+Node key: 902
 
 Processing testCase3:
 
@@ -159,8 +175,6 @@ Here are the FIFO List contents:
 108 
 End of FIFO List
 
-Here are the Hash Table contents (8 entries):
-
 Bucket 0: 
 FIFO info from cacheManager:  key: 110
 
@@ -186,8 +200,6 @@ Empty bucket: 8
 Bucket 9: 
 FIFO info from cacheManager:  key: 108
 Empty bucket: 10
-
-End of table
 Performing In-order traversal
 Node key: 108
 Node key: 110
@@ -197,6 +209,15 @@ Node key: 114
 Node key: 115
 Node key: 510
 Node key: 611
+Performing Breadth First traversal
+Node key: 510
+Node key: 108
+Node key: 611
+Node key: 110
+Node key: 111
+Node key: 113
+Node key: 114
+Node key: 115
 Performing reverse-order traversal
 Node key: 611
 Node key: 510
@@ -206,6 +227,15 @@ Node key: 113
 Node key: 111
 Node key: 110
 Node key: 108
+Performing Breadth First traversal
+Node key: 510
+Node key: 108
+Node key: 611
+Node key: 110
+Node key: 111
+Node key: 113
+Node key: 114
+Node key: 115
 
 Processing testCase4:
 
@@ -250,8 +280,6 @@ Here are the FIFO List contents:
 22 
 End of FIFO List
 
-Here are the Hash Table contents (11 entries):
-
 Bucket 0: 
 FIFO info from cacheManager:  key: 154
 FIFO info from cacheManager:  key: 143
@@ -274,8 +302,6 @@ Empty bucket: 7
 Empty bucket: 8
 Empty bucket: 9
 Empty bucket: 10
-
-End of table
 Performing In-order traversal
 Node key: 22
 Node key: 33
@@ -285,6 +311,18 @@ Node key: 88
 Node key: 99
 Node key: 110
 Node key: 121
+Node key: 132
+Node key: 143
+Node key: 154
+Performing Breadth First traversal
+Node key: 22
+Node key: 33
+Node key: 55
+Node key: 66
+Node key: 88
+Node key: 99
+Node key: 121
+Node key: 110
 Node key: 132
 Node key: 143
 Node key: 154
@@ -300,6 +338,18 @@ Node key: 66
 Node key: 55
 Node key: 33
 Node key: 22
+Performing Breadth First traversal
+Node key: 22
+Node key: 33
+Node key: 55
+Node key: 66
+Node key: 88
+Node key: 99
+Node key: 121
+Node key: 110
+Node key: 132
+Node key: 143
+Node key: 154
 
 Processing testCase5:
 
@@ -317,10 +367,13 @@ add key to cacheManager: 67
 add key to cacheManager: 9
 getSize: 8
 printRange with low: 9 and high: 35
-Printing range [9, 35]
+Printing nodes in range [9, 35]
 Node key: 9
+FIFO info from cacheManager:  key: 9
 Node key: 23
+FIFO info from cacheManager:  key: 23
 Node key: 34
+FIFO info from cacheManager:  key: 34
 Printing out the cache: 
 Here are the FIFO List contents: 
 9 
@@ -332,8 +385,6 @@ Here are the FIFO List contents:
 42 
 53 
 End of FIFO List
-
-Here are the Hash Table contents (8 entries):
 Empty bucket: 0
 
 Bucket 1: 
@@ -356,8 +407,6 @@ FIFO info from cacheManager:  key: 86
 FIFO info from cacheManager:  key: 42
 FIFO info from cacheManager:  key: 53
 Empty bucket: 10
-
-End of table
 Performing In-order traversal
 Node key: 9
 Node key: 23
@@ -367,6 +416,15 @@ Node key: 53
 Node key: 67
 Node key: 80
 Node key: 86
+Performing Breadth First traversal
+Node key: 53
+Node key: 42
+Node key: 80
+Node key: 23
+Node key: 67
+Node key: 86
+Node key: 9
+Node key: 34
 Performing reverse-order traversal
 Node key: 86
 Node key: 80
@@ -376,3 +434,12 @@ Node key: 42
 Node key: 34
 Node key: 23
 Node key: 9
+Performing Breadth First traversal
+Node key: 53
+Node key: 42
+Node key: 80
+Node key: 23
+Node key: 67
+Node key: 86
+Node key: 9
+Node key: 34

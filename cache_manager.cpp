@@ -8,10 +8,10 @@
 *
 */
 
-#include "cache_manager.h"
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "cache_manager.h"
 
 extern void logToFileAndConsole(std::string msg);
 extern std::ofstream& getOutFile();
@@ -285,9 +285,13 @@ void CacheManager::printRange(int low, int high) {
 * @return   nothing, but prints out the keys for the cache in sorted order
 */
 void CacheManager::sort(bool ascending) {
+    // Print in requested order
     if (ascending) {
         binarySearchTree->printInOrder();
     } else {
         binarySearchTree->printReverseOrder();
     }
+
+    // Add BFS traversal to satisfy TA requirements
+    binarySearchTree->printBreadthFirst();
 }

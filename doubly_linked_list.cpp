@@ -8,9 +8,9 @@
 *
 */
 
-#include "doubly_linked_list.h"
-#include <iostream>
 #include <string>
+#include <fstream>
+#include "doubly_linked_list.h"
 
 extern std::ofstream& getOutFile();
 extern void logToFileAndConsole(std::string msg);

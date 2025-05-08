@@ -3,10 +3,12 @@
 * @author - Adrian Aquino
 * @file hash_table.cpp - Implementation of hash table
 *
-* 4/20/25 - Created file
+* 4/20/25 - Imported from Milestone 3
+* 5/7/25 - Modified to work without needing to include iostream in header file
 */
 
 #include <iostream>
+#include <string>
 #include "hash_table.h"
 
 extern void logToFileAndConsole(std::string msg);

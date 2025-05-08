@@ -6,14 +6,11 @@
 * 10/17/24 - Modified by jhui
 * 01/11/25 - Modified by hhui; 1) added calculateHashCode, 2) modified methods to include hash table size parameter
 * 01/16/2025 - Modified by hhui; created separate node structure file
-* 4/20/25 - Modified by Adrian Aquino; Added iostream
 */
-
 
 #ifndef _HASH_TABLE
 #define _HASH_TABLE
 
-#include <iostream>
 #include "hash_node.h"
 
 // Define a class for the hash table 

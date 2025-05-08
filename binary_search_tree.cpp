@@ -3,14 +3,13 @@
 * @author - Adrian Aquino
 * @file binary_search_tree.cpp - Implementation of the binary search tree
 *
-* 04/02/25 - Created implementation file for the Binary Search Tree with all required methods
-* 04/21/25 - Added missing methods: updated addToTree with DllNode parameter, implemented printReverseOrder and printRange methods
+* 04/20/25 - Imported file from Milestone 4
+* 04/21/25 - Added for Milestone 5: printReverseOrder, printRange methods
 */
 
-#include "binary_search_tree.h"
-#include <iostream>
 #include <queue>
 #include <algorithm>
+#include "binary_search_tree.h"
 
 extern void logToFileAndConsole(std::string message);
 
