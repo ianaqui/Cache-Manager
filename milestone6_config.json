@@ -1,0 +1,19 @@
+{
+    "Milestone6": [
+        {
+            "files": [
+                {
+                    "inputFile": "milestone6.json",
+                    "outputFile": "generatedOutputFile.txt",
+                    "errorLogFile": "logFile.txt"
+                }
+            ],
+            "defaultVariables": [
+                {
+                    "FIFOListSize": 5,
+                    "hashTableSize": 101
+                }
+            ]
+        }
+    ]
+}
