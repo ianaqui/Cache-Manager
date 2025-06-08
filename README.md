@@ -1,4 +1,4 @@
-# 🚀 Cache Manager with Red-Black Tree
+# 🚀 Cache Manager
 
 ## 🎯 Intro:
 A high-performance C++ cache management system that combines three sophisticated data structures for optimal caching operations. This implementation features a Red-Black Tree for self-balancing operations, hash table for O(1) lookups, and doubly linked list for LRU (Least Recently Used) cache behavior.
